@@ -16,4 +16,4 @@ function disemvowel(str) { //A function that receives str (the text to Disemvowe
         newStr += str[i];                                      //But the vowels are not including in the string, add the letter to the new string variable 
     }
     return newStr;
-}
+} 
