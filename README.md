@@ -1,6 +1,9 @@
 # Javascript-Exercises
-Git is the open source distributed version control system that facilitates GitHub activities on
-your laptop or desktop. This cheat sheet summarizes commonly used Git command line 
-instructions for quick reference
+This repository is my practice in Javascript, the answers that I relate are the ways in which I solved them, but it is clear that it is not the only way. Perhaps there are better ways. Here you can find out how I solved them personally.
+This repository is my practice in Javascript, the answers that I relate are the ways in which I solved them, but it is clear that it is not the only way. Possibly there are better ways and I'll be getting better and better. Here you can find out how I solved them personally.
 ## Origin
-The cheat sheet are extracted from: https://d3c33hcgiwev3.cloudfront.net/SspDywPOSySKQ8sDzrskYA_e4f25a0bc3f44a89a282db515ce821e1_github-git-cheat-sheet.pdf?Expires=1660003200&Signature=WwXnx1sy8WLh5DJFVCb7AOb63mfoGg7~UraKw53w4MOcnqz0ckTle0TMybIzxM4MX08ttynpBH2DeMWq69x~5cLSown1kuOt9wlINwxODLxvUC40OkHCAFqg~5Dt7fi6AMUD92Nk6tu5i6fd92h6vnq13fsatjk1tXK2a6n37aM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+The exercises are extracted from different pages like Codewars, freecodecamp and others
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
