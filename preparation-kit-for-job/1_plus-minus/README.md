@@ -38,7 +38,8 @@ Print the following 3 lines, each to  decimals:
 1. proportion of positive values
 2. proportion of negative values
 3. proportion of zeros
-4. Sample Input
+
+Sample Input
 
 STDIN           Function
 -----           --------
