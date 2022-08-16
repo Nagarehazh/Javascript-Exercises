@@ -39,11 +39,11 @@ sumaArray(a);
 const convertidorBinario = (num)=>{
     let almacenador = []
     while (num!==0){
-        let residuo = parseInt(num%2)
-        num = Math.floor(num/2);
+        let residuo = num%2
         almacenador.push(residuo);
-        console.log(`El Div es: ${num} y el Residuo:${residuo}`);
+        num = Math.floor(num/2);
+        
     }
-    return almacenador
+    return almacenador.reverse();
 }
-convertidorBinario(9);
+convertidorBinario(100);
