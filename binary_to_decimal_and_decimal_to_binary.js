@@ -7,19 +7,19 @@ function binarioADecimal(num) {
     return decimal;
 }
 
-binarioADecimal("1011");
+binarioADecimal("100101");
 
 
 //Binary to decimal using for in
 function binario2ADecimal(num){
     let suma = 0;
     for(let i in num){
-        suma += num[i]*Math.pow(2, (num.length -1 - i));
+        suma += num[i]*Math.pow(2, (num.length - 1 - i));
     }
     return suma;
 }
 
-binario2ADecimal("1011");
+binario2ADecimal("100101");
 
 
 //Practicing for in
@@ -37,13 +37,13 @@ sumaArray(a);
 
 //Decimal to binary
 const convertidorBinario = (num)=>{
-    let almacenador = []
-    while (num!==0){
-        let residuo = num%2
-        almacenador.push(residuo);
+    let binario = [];
+    while(num !== 0 ){
+        let residuo = num%2;
+        binario.push(residuo);
         num = Math.floor(num/2);
-        
     }
-    return almacenador.reverse();
+    return binario.reverse().toString().replace(/,/g, "");
 }
-convertidorBinario(100);
+convertidorBinario(15);
+
