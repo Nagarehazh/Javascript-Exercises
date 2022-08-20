@@ -2,10 +2,6 @@ function Queue(){
     this.arr = [];
 }
 
-//enqueue
-//dequeue
-//size
-
 Queue.prototype.enqueue = function(elemento){
     this.arr.push(elemento);
 }

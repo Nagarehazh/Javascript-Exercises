@@ -29,7 +29,7 @@ class Queue{
         return this;
     }
 
-    dequeue(){
+    dequeue(){  //
         if(this.length === 0){
             return null;
         }
